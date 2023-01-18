@@ -67,13 +67,16 @@ export default function Home() {
             <div className={cx('wrapperBanner')}>
                 <SwiperSlideComp className={cx('bodyBanner')}>
                     <SwiperSlide>
-                        <Banner className={cx('bannerMain')} image={banners.halongbay} />
+                        <Banner className={cx('bannerMain')} image={banners.banner4} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Banner className={cx('bannerMain')} image={banners.resolt} />
+                        <Banner className={cx('bannerMain')} image={banners.banner6} />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Banner className={cx('bannerMain')} image={banners.banner1} />
+                        <Banner className={cx('bannerMain')} image={banners.banner7} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Banner className={cx('bannerMain')} image={banners.banner8} />
                     </SwiperSlide>
 
                     <div className={cx('sheaderBox')}>
